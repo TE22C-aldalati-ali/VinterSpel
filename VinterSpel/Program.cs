@@ -24,7 +24,7 @@ class Aligame
 
         while (incorrectAttempts < maxIncorrectAttempts)
         {
-            // Display the current state of the word
+        // Display the current state of the word
             Console.WriteLine("Current word: " + new string(guessedLetters));
             
             // Prompt the user to guess a letter
